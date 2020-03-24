@@ -27,4 +27,4 @@ weights = [0.1, 0.2, 0]
 
 # Get predictions
 pred = neural_network(input, weights)
-print('chance to win ~', pred)
+print('chance to win ~'t, pred)

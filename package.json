@@ -2,5 +2,16 @@
   "name": "grokaem_0_simple",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
-,"scripts": { "dev": "nodemon --exec python3 main.py ./main.py" }}
+  "license": "MIT",
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec python3 main.py ./main.py",
+    "dev:lib": "nodemon --exec python3 lib.py ./lib.py"
+  }
+}
