@@ -11,7 +11,10 @@
     "delay": "1"
   },
   "scripts": {
-    "dev": "nodemon --exec python3 main.py ./main.py",
+    "dev:single": "nodemon --exec python3 singleOutput.py ./singleOutput.py",
+    "dev:single.numpy": "nodemon --exec python3 singleOutput.numpy.py ./singleOutput.numpy.py",
+    "dev:multiple": "nodemon --exec python3 multipleOutputs.py ./multipleOutputs.py",
+    "dev:m-m": "nodemon --exec python3 multipleToMultiple.py ./multipleToMultiple.py",
     "dev:lib": "nodemon --exec python3 lib.py ./lib.py"
   }
 }
